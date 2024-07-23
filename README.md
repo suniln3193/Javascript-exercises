@@ -1,4 +1,4 @@
-# Javascript-exercises
+# Javascript Exercises
 I'm adding all the javascript exercises questions below - 
 
 Exercise - 1 : Write a JavaScript program to display the current day and time in the following format. -->
