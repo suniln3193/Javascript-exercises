@@ -1,2 +1,2 @@
 # Javascript-exercises
-I'm adding all the javascript exercise here.
+I'm adding all the javascript exercises here.
