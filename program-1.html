@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <h1>My First Heading</h1> -->
+
+
+    <script>
+        // <!-- 1. Write a JavaScript program to display the current day and time in the following format. -->
+        // Sample Output: Today is: Tuesday.
+        // Current time is: 10 PM: 30 : 38
+        const today = new Date();
+        const day = today.getDay();
+        const daylist = ["Sun", "Monday", "Tuesday", "Wed", "Thurs", "Fri", "Sat"]
+        const hour = today.getHours() - 12;
+        const minutes = today.getMinutes();
+        const seconds = today.getSeconds();
+        const getdaynight = (12 >= hour) ? "PM" : "AM";
+        console.log(`Today is ${daylist[day]}`)
+        console.log(`Currently time is ${hour}:${minutes}:${seconds} ${getdaynight}`)
+    </script>
+</body>
+
+</html>
